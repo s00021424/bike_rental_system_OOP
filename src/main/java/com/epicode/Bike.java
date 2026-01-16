@@ -141,14 +141,13 @@ public abstract class Bike implements BikeComponent {
 
     @Override
     public void showDetails() {
-        // Removed unnecessary try-catch; printing is safe
         System.out.println("-------Bike details------");
         System.out.println("Type: " + getType());
         System.out.println("ID: " + id);
         System.out.println("Model: " + model);
         System.out.println("Available: " + available);
-        System.out.println("Foldable: " + lights);
-        System.out.println("Electric: " + basket);
+        System.out.println("Lights: " + lights);
+        System.out.println("Basket: " + basket);
         System.out.println("GPS: " + GPS);
     }
 }

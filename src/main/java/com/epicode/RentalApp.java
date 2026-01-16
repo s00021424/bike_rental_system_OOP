@@ -190,6 +190,7 @@ public class RentalApp {
                 try {
                     System.out.println("Choose a bike:");
                     chosenCatalog.listBikes(chosenCatalog.createIterator());
+                    chosenCatalog.showDetails();
 
                     int bikeChoice = readSafeInteger(scanner, bikes.size() - 1);
                     Bike candidate = chosenCatalog.getElementAt(bikeChoice);
