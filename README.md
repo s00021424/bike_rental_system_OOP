@@ -129,10 +129,10 @@ Make sure the data/ folder exists and is writable.
 ### View-Only
 
 **UML class diagram**
-- ![UML class diagram](docs/bike-rental-class-diagram.svg)
+- ![UML class diagram](docs/bike-rental-class-diagram.drawio.svg)
 
 **UML architectural (component) diagram**
-- ![UML architectural diagram](docs/bike-rental-architectural-diagram.svg)
+- ![UML architectural diagram](docs/bike-rental-architectural-diagram.drawio.svg)
 
 ### Editable
 
